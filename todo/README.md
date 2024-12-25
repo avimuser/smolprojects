@@ -19,34 +19,34 @@ go build -o todo
 
 ## Commands
 
-All operations will be performed on `tasks.json` file in current directory, it will be created if it does not exist
+Tasks will be stored in `tasks.json` file in current directory
 
-### Add
+### Add Task
 
 ```bash
 todo add "Write REDAME"
 ```
 
-### List
+### Listing Tasks
 
 ```bash
 todo list # To list all
 todo list done # in-progress or todo
 ```
 
-### Update
+### Updating Tasks
 
 ```bash
 todo update 1 "Write README"
 ```
 
-### Mark
+### Changing the status of a Task
 
 ```bash
 todo mark 1 done # in-progress or todo
 ```
 
-### Delete
+### Deleting a Task
 
 ```bash
 todo delete 1
