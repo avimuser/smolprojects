@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/vinaykandagatla/backend-projects/caching-server/internal/cache"
+	"github.com/avimuser/smolprojects/caching-server/internal/cache"
 )
 
 type Handler struct {

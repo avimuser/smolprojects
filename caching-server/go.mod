@@ -1,4 +1,4 @@
-module github.com/vinaykandagatla/backend-projects/caching-server
+module github.com/avimuser/smolprojects/caching-server
 
 go 1.22.2
 

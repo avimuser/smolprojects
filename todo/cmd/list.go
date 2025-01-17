@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/vinaykandagatla/backend-projects/todo/internal/task"
+	"github.com/avimuser/smolprojects/todo/internal/task"
 )
 
 func ListTasks(status task.TaskStatus) {

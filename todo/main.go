@@ -4,8 +4,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/vinaykandagatla/backend-projects/todo/cmd"
-	"github.com/vinaykandagatla/backend-projects/todo/internal/task"
+	"github.com/avimuser/smolprojects/todo/cmd"
+	"github.com/avimuser/smolprojects/todo/internal/task"
 )
 
 func main() {

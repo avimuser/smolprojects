@@ -6,8 +6,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/vinaykandagatla/backend-projects/caching-server/internal/cache"
-	"github.com/vinaykandagatla/backend-projects/caching-server/internal/handler"
+	"github.com/avimuser/smolprojects/caching-server/internal/cache"
+	"github.com/avimuser/smolprojects/caching-server/internal/handler"
 )
 
 var port int

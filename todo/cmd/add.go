@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/vinaykandagatla/backend-projects/todo/internal/task"
+	"github.com/avimuser/smolprojects/todo/internal/task"
 )
 
 func AddTask(desc string) {

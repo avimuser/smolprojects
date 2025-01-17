@@ -7,34 +7,34 @@ Solution for [caching-server](https://roadmap.sh/projects/caching-server)
 ### Clone repo
 
 ```bash
-git clone https://github.com/vinaykandagatla/backend-projects
+git clone https://github.com/avimuser/smolprojects/caching-server
 ```
 
 ### Build
 
 ```bash
-cd backend-projects/caching-server
+cd caching-server
 go get
 go build -o caching-server
 ```
 
-## Commands
+### Commands
 
 Cache will be stored in `cache.db` file in current directory
 
-### Starting the server
+#### Starting the server
 
 ```bash
 caching-server --origin "https://dummyjson.com"
 ```
 
-### Starting the server on a specific port
+#### Starting the server on a specific port
 
 ```bash
 caching-server --origin "https://dummyjson.com" --port 3000
 ```
 
-### Clearing the cache
+#### Clearing the cache
 
 ```bash
 caching-server --clear-cache

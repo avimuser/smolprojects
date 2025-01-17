@@ -7,52 +7,52 @@ Solution for [task-tracker](https://roadmap.sh/projects/task-tracker)
 ### Clone repo
 
 ```bash
-git clone https://github.com/vinaykandagatla/backend-projects
+git clone https://github.com/avimuser/smolprojects/todo
 ```
 
 ### Build
 
 ```bash
-cd backend-projects/todo
+cd todo
 go build -o todo
 ```
 
-## Commands
+### Commands
 
 Tasks will be stored in `tasks.json` file in current directory
 
-### Add Task
+#### Add Task
 
 ```bash
 todo add "Write REDAME"
 ```
 
-### Listing Tasks
+#### Listing Tasks
 
 ```bash
 todo list # To list all
 todo list done # in-progress or todo
 ```
 
-### Updating Tasks
+#### Updating Tasks
 
 ```bash
 todo update 1 "Write README"
 ```
 
-### Changing the status of a Task
+#### Changing the status of a Task
 
 ```bash
 todo mark 1 done # in-progress or todo
 ```
 
-### Deleting a Task
+#### Deleting a Task
 
 ```bash
 todo delete 1
 ```
 
-### Help
+#### Help
 
 ```bash
 todo help
